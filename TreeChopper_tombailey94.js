@@ -29,7 +29,7 @@ function destroyBlock(x, y, z, side) {
 			if(getTile(x, i, z) == woodId) { //if the block is a wood block
 				Level.destroyBlock(x, i, z, true); //destroys and drops wood block
 			} else {
-				break;
+				break;c
 			}
 		}
 	}
